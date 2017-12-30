@@ -69,6 +69,11 @@ command W w !sudo tee % > /dev/null
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM user interface
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" Shows line numbers in every file (added by sho1975@gmail.com)
+set nu
+
+
 " Set 7 lines to the cursor - when moving vertically using j/k
 set so=7
 
